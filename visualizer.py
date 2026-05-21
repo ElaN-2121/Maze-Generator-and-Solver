@@ -1,3 +1,4 @@
+#visualizer.py
 import pygame
 
 # Standard Colors

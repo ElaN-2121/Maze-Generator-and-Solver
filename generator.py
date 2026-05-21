@@ -1,3 +1,4 @@
+#generator.py
 import random
 def generate_maze(maze):
     rows = maze.rows
