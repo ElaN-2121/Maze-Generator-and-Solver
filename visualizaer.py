@@ -1,5 +1,6 @@
 import pygame
 
+# Standard Colors
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 RED = (255, 0, 0)
@@ -8,6 +9,11 @@ GREEN = (0, 255, 0)
 
 class MazeVisualizer:
     def __init__(self, screen, cell_size=25):
+        """
+        Initializes the visualizer.
+        :param screen: The pygame display surface.
+        :param cell_size: Size of each maze cell in pixels.
+        """
         self.screen = screen
         self.cell_size = cell_size
 
